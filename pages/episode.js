@@ -9,6 +9,12 @@ const Episode = ({ episode }) => (
     <p>Rating: {episode.imdbRating}</p>
 
     <Link prefetch href="/"><a>Back</a></Link>
+
+    <style jsx global>{`
+      body {
+        font-family: sans-serif;
+      }
+    `}</style>
   </div>
 )
 
